@@ -3,8 +3,9 @@ def starts_with_a_vowel?(word)
   @word = word
 
  if @word.match(/^[aeiou] || ^[AEIOU]/) == nil
+binding.pry
    return false
-   binding.pry
+
  else
    return true
  end
