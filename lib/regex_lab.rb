@@ -1,8 +1,7 @@
 require 'pry'
 def starts_with_a_vowel?(word)
   @word = word
-
- if @word.scan(/^[aeiou]|^[AEIOU]/) == []
+ if word.scan(/^[aeiou]|^[AEIOU]/) == []
 
    return false
 
