@@ -2,7 +2,7 @@ require 'pry'
 def starts_with_a_vowel?(word)
   @word = word
 
-  if @word.match(/^[aeiou]/) != nil
+  if @word.match(/^[aeiou] | ^[AEIOU]/) != nil
     return true
   else
     return false
