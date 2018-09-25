@@ -1,14 +1,6 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  w = word
-if w.(/^[AEIOU] | ^[aeiou]/) == nil
-
-  false
-else
-  true
-end
-
-
+  @word = word
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
