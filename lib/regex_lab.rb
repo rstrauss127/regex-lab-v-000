@@ -3,7 +3,7 @@ x = word.scan(/^[aeiou]/)
 if x != nil
   return true
 end
-return false
+
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
