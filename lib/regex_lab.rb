@@ -4,6 +4,7 @@ def starts_with_a_vowel?(word)
 
  if @word.match(/^[aeiou] || ^[AEIOU]/) == nil
    return false
+   binding.pry
  else
    return true
  end
