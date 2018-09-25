@@ -1,6 +1,7 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-if word.match(/^[AEIOU]/) == nil
+  w = word
+if w.(/^[AEIOU]/) == nil
 
   false
 else
