@@ -25,5 +25,7 @@ end
 
 def valid_phone_number?(phone)
   phone.scan(/\D/)
+  binding.pry
+  
 
 end
