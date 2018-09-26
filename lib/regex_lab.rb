@@ -13,6 +13,7 @@ end
 
 def words_five_letters_long(text)
 x = text.scan(/\s\w{3}\s/)
+binding.pry
 x
 end
 
