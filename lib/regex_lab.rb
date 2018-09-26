@@ -12,8 +12,8 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-x = text.scan(/\s\w{3}\s/)
-binding.pry
+x = text.scan(/\s\w{5}\s/)
+
 x
 end
 
